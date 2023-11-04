@@ -1,0 +1,61 @@
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #141693;
+	background-image: -moz-linear-gradient(
+	    30deg, #f390e6 0%, #f390e6 30%, white 50%, #f390e6 80%, #f390e6 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #f390e6 0%, #fffded 30%, white 50%, #fffded 80%, #f390e6 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #f390e6 0%, #fffded 30%, white 50%, #fffded 80%, #f390e6 100%);
+	background-image: linear-gradient(
+	    30deg, #f390e6 0%, #fffded 30%, white 50%, #fffded 80%, #f390e6 100%);
+}
+header h2 {
+	font-size: 175%;
+	color: #048000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+.shadow {
+	text-shadow: 2px
+	  2px 2px #6d8000;
+}
+#nav_menu {
+    grid-area: navi;
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    display: grid;
+    grid-template: auto / repeat(5, 1fr);
+    align-content: center;
+}
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: yellow;
+}
+footer {
+	background-color: #c5f122;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: rgb(24, 23, 23);
+	padding: 1em 0;
+}
